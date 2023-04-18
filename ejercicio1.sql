@@ -36,3 +36,19 @@ CREATE TABLE prestamo (
           id_usuario integer (11)
          FOREIGN KEY(id_usuario) REFERENCES usuario (id_usuario)
 );
+
+-- Inserciones para la tabla 'libro'
+INSERT INTO autor (nombre) VALUES
+    ('gabriel'),
+    ('servantes'),
+    ('kkk'),
+    ('kkk'),
+    ('fff');
+INSERT INTO libro (nombre, id_usuario, id_autor) VALUES
+    ('cin años de soledad', 1, 1),
+
+INSERT INTO usuario (nombre, direccion, telefono, id_libro) VALUES
+    ('maria', san judas, 313789, 1),
+
+    
+
